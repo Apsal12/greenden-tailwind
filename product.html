@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--tailwind-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+</head>
+
+<body>
+    <!--responsive navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="hidden gap-5 text-gray-500 md:flex">
+            <li class="hover:underline hover:text-black">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="hover:underline hover:text-black">
+                <a href="product.html">Product</a>
+            </li>
+            <li class="hover:underline hover:text-black">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--our products-->
+    <div class="text-center text-3xl font-bold mt-10">
+        <h1>Our Products</h1>
+        <input type="text" class="w-4/5 border border-black p-2 mt-5" placeholder="Search for a Product">
+    </div>
+    <!--product cards-->
+    <products>
+        <container class="grid grid-cols-2  md:grid-cols-3 xl:grid-cols-4 p-8 gap-5 text-center mt-11">
+            <card1 class="">
+                <img src="./images/moneyplant.jpeg"
+                    class="h-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer"
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Money Plant(Pothos)</p>
+                    <p>₹150-₹250</p>
+                </name>
+            </card1>
+            <card2>
+                <img src="./images/snakeplant.jpg"
+                    class="h-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Snake Plant</p>
+                    <p>₹150-₹350</p>
+                </name>
+            </card2>
+            <card3 class="mt-3 md:mt-0">
+                <img src="./images/palm.jpg"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer"
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>🌴 Areca Palm</p>
+                    <p>₹300-₹800</p>
+                </name>
+            </card3>
+            <card4 class="mt-3 xl:mt-0  cursor-pointer">
+                <img src="./images/plant.jpg"
+                    class="h-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer"
+                    alt="">
+                <name class="hover:underline">
+                    <p>Alovera</p>
+                    <p>₹120-₹300</p>
+                </name>
+            </card4>
+
+            <card5 class="mt-3">
+                <img src="./images/peacelilly.jpg"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Peace Lily</p>
+                    <p>₹299-₹699</p>
+                </name>
+            </card5>
+
+            <card6 class="mt-3">
+                <img src="./images/card6.webp"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Snake Plant</p>
+                    <p>₹499-₹1250</p>
+                </name>
+            </card6>
+
+            <card7 class="mt-3">
+                <img src="./images/rubberplant.jpg"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Rubber Plant</p>
+                    <p>₹599-₹750</p>
+                </name>
+            </card7>
+
+            <card8 class="mt-3">
+                <img src="./images/zzplant.webp"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Zzz Plant</p>
+                    <p>₹250-₹350</p>
+                </name>
+            </card8>
+
+            <card9 class="mt-3">
+                <img src="./images/spiderplant.jpg"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Spider Plant</p>
+                    <p>₹199-₹399</p>
+                </name>
+            </card9>
+
+            <card10 class="mt-3">
+                <img src="./images/jade.webp"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Jade Plant</p>
+                    <p>₹149-₹249</p>
+                </name>
+            </card10>
+
+            <card11 class="mt-3">
+                <img src="./images/hibiscus.webp"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Hibiscus Plant</p>
+                    <p>₹150-₹350</p>
+                </name>
+            </card11>
+
+            <card12 class="mt-3">
+                <img src="./images/rose.jpg"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Rose Plant</p>
+                    <p>₹50-₹150</p>
+                </name>
+            </card12>
+
+
+            <card13 class="mt-3">
+                <img src="./images/tulsi.webp"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Tulsi Plant</p>
+                    <p>₹100-₹200</p>
+                </name>
+            </card13>
+
+            <card14 class="mt-3">
+                <img src="./images/bamboo.jpg"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Bamboo Plant</p>
+                    <p>₹149-₹499</p>
+                </name>
+            </card14>
+
+            <card15 class="mt-3">
+                <img src="./images/prayerplant.jpeg"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Prayer Plant</p>
+                    <p>₹500-₹999</p>
+                </name>
+            </card15>
+
+            <card16 class="mt-3">
+                <img src="./images/anthurium.jpg"
+                    class="h-60 w-60 rounded-xl inline hover:shadow-xl transform hover:-translate-y-6 transition duration-300 ease-linear cursor-pointer "
+                    alt="">
+                <name class="hover:underline cursor-pointer">
+                    <p>Anthurium Plant</p>
+                    <p>₹1999-₹2590</p>
+                </name>
+            </card16>
+        </container>
+    </products>
+
+
+    <!--footer-->
+    <footer>
+        <div class="bg-green-100 p-5 mt-7">
+            <h1 class="text-5xl text-left font-bold">Greenden</h1>
+            <p>Greenden is your one-stop online nursery for plants, planters, gardening accessories, and tools. Order
+                fresh plants and get free home delivery on the next day!</p>
+            <p class="mt-5">Grow with us 🌿</p>
+            <div class="flex gap-1">
+                <img src="./images/facebook.png" class="w-8 h-8 cursor-pointer" alt="">
+                <img src="./images/whatsapp.png" class="w-8 h-8 cursor-pointer" alt="">
+                <img src="./images/instagram.png" class="w-8 h-8 cursor-pointer" alt="">
+                <img src="./images/pintrest.png" class="w-8 h-8 cursor-pointer" alt="">
+            </div>
+            <p class="mt-1">© 2026 Greenden. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
