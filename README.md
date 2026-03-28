@@ -83,7 +83,7 @@ This project is created to:
 ---
 📸 Output Screenshots
 🏠 Home Page
-  (./outputs/home.jpeg)
+  ![Home Page](outputs/home.jpeg)
 
 
 
