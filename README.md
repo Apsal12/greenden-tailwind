@@ -84,22 +84,12 @@ This project is created to:
 📸 Output Screenshots
 🏠 Home Page
   ![Home Page](outputs/home.jpeg)
-
-
-
-
 🌿 Product Page
-
-
-
-
+ ![Product Page](outputs/product.jpeg)
 📞 Contact Page
-
-
-
-
+ ![Contact Page](outputs/contact.jpeg)
 ✅ Success Page
-
+ ![Success Page](outputs/thankscard.jpeg)
 ---
 
 ## 🔗 How to Run
