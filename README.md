@@ -1,6 +1,6 @@
 # 🌿 Greenden – Plant Store Website
 
-Greenden is a responsive plant e-commerce website built using **HTML** and **Tailwind CSS**.
+Greenden is a responsive plant e-commerce website built using **HTML**,**Tailwind CSS** and **JavaScript**.
 It provides users with a simple and modern interface to explore plants, view products, and contact the store.
 
 ---
@@ -10,6 +10,7 @@ It provides users with a simple and modern interface to explore plants, view pro
 * 🌱 Responsive design (Mobile + Desktop)
 * 🛒 Product listing with pricing
 * 🔍 Search bar for products
+* 🔍Implement real search functionality
 * 📩 Contact form with success page
 * ⭐ Customer reviews section
 * 📬 Newsletter subscription UI
@@ -102,7 +103,6 @@ This project is created to:
 ## 📌 Future Improvements
 
 * Add backend for form submission
-* Implement real search functionality
 * Add cart & checkout system
 * Improve UI animations
 
